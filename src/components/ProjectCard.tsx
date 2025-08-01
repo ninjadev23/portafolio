@@ -112,8 +112,10 @@ import { motion, AnimatePresence } from "framer-motion";
 import DeviceCard from "./DeviceCard";
 import type { Project, Image } from "../types";
 import ProjectDetail from "./ProjectDetail";
-
-const ProjectCard: React.FC<Project> = ({
+interface Props extends Project{
+  images: Image[]
+}
+const ProjectCard: React.FC<Props> = ({
   name,
   description,
   images,

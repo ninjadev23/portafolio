@@ -9,7 +9,6 @@ export type Image = {
 export interface Project {
   name: string;
   description: string;
-  images: Image[];
   github: string;
   technologies: Technology[];
   live?: string;
