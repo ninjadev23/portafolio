@@ -45,9 +45,9 @@ export default function App() {
 
   useEffect(() => {
     const interval = setInterval(() => {
-      let newProfileImage = randomNumber(1, 2);
+      let newProfileImage = randomNumber(1, 3);
       if (newProfileImage === profileImage) {
-        newProfileImage = randomNumber(1, 2);
+        newProfileImage = randomNumber(1, 3);
       }
       setProfileImage(newProfileImage);
     }, 3000);
@@ -57,11 +57,11 @@ export default function App() {
   return (
     <div
       className={`flex flex-col min-h-screen relative w-full bg-cover bg-center bg-no-repeat bg-fixed bg-blend-overlay bg-black/60 text-white`}
-      style={{ backgroundImage: `url(/wallpaper${background}.jpg)` }}
+      style={{ backgroundImage: `url(/wallpaper${background}.webp)` }}
     >
       <header>
         <nav className="w-full bg-black/30 backdrop-blur-md fixed top-0 left-0 z-20 px-4 py-2 flex items-center justify-between">
-          <img className="h-10 w-40 object-cover" src="/logo.png" alt="code" />
+          <img className="h-10 w-40 object-cover" src="/logo.webp" alt="code" />
 
           {/* Desktop nav */}
           <ul className="hidden md:flex justify-center gap-5 text-lg font-semibold">
@@ -73,6 +73,9 @@ export default function App() {
             </li>
             <li className="p-2 hover:border-b hover:text-white/60">
               <a href="#projects">Proyectos</a>
+            </li>
+            <li className="p-2 hover:border-b hover:text-white/60">
+              <a href="#education">Educación</a>
             </li>
             <li className="p-2 hover:border-b hover:text-white/60">
               <a href="#contact">Contacto</a>
@@ -88,23 +91,32 @@ export default function App() {
           </button>
 
           {isMobileMenuOpen && (
-            <div className="absolute top-full left-0 w-full bg-black/30 backdrop-blur-md flex flex-col gap-4 text-white text-center font-semibold py-5 md:hidden">
-              <a onClick={() => setIsMobileMenuOpen(false)} href="#about">Sobre mí</a>
-              <a onClick={() => setIsMobileMenuOpen(false)} href="#skills">Habilidades</a>
-              <a onClick={() => setIsMobileMenuOpen(false)} href="#projects">Proyectos</a>
-              <a onClick={() => setIsMobileMenuOpen(false)} href="#contact">Contacto</a>
+            <div className="absolute top-full left-0 w-full bg-black/60 backdrop-blur-md flex flex-col gap-4 text-white text-center font-semibold py-5 md:hidden">
+              <a className="py-1" onClick={() => setIsMobileMenuOpen(false)} href="#about">
+                Sobre mí
+              </a>
+              <a className="py-1" onClick={() => setIsMobileMenuOpen(false)} href="#skills">
+                Habilidades
+              </a>
+              <a className="py-1" onClick={() => setIsMobileMenuOpen(false)} href="#projects">
+                Proyectos
+              </a>
+              <a className="py-1" onClick={() => setIsMobileMenuOpen(false)} href="#education">
+                Educación
+              </a>
+              <a className="py-1" onClick={() => setIsMobileMenuOpen(false)} href="#contact">
+                Contacto
+              </a>
             </div>
           )}
         </nav>
-
-        {/* Hero section */}
         <div className="w-full h-screen flex items-center justify-center flex-col gap-5">
           <div className="flex items-center justify-center gap-3">
             <div className="rotate-6 bg-white h-40 w-35 flex items-center justify-center p-1">
               <img
                 key={profileImage}
                 className="w-full h-full object-cover opacity-0 animate-fade-in shadow"
-                src={`/profile${profileImage}.jpg`}
+                src={`/profiles/profile${profileImage}.webp`}
                 alt="Jansel Roa Reyes"
                 style={{ perspective: "1000px", transform: "rotateY(18deg)" }}
               />
@@ -116,13 +128,19 @@ export default function App() {
                 className="inline font-bold text-sky-500 text-2xl"
               ></h2>
               <div className="flex gap-3 mt-2">
-                <a href="#projects" className="p-2 rounded-sm bg-sky-600 h-10">Sobre Mi</a>
-                <a href="" className="rounded-sm p-2 bg-black/40 border border-white/40 h-10">Ver CV</a>
+                <a href="#projects" className="p-2 rounded-sm bg-sky-600 h-10">
+                  Sobre Mi
+                </a>
+                <a
+                  href="/CV.pdf"
+                  target="_blank"
+                  className="rounded-sm p-2 bg-black/40 border border-white/40 h-10"
+                >
+                  Ver CV
+                </a>
               </div>
             </div>
           </div>
-
-          {/* Chevron hacia la siguiente sección */}
           <div className="flex justify-center animate-bounce text-white">
             <a href="#skills" className="hover:cursor-pointer">
               <ChevronDown size={32} className="opacity-70" />
@@ -130,8 +148,6 @@ export default function App() {
           </div>
         </div>
       </header>
-
-      {/* Secciones con sus IDs */}
       <section id="skills">
         <Skills />
       </section>
@@ -146,7 +162,7 @@ export default function App() {
       <section id="education">
         <Education />
       </section>
-      <ContactSection/>
+      <ContactSection />
     </div>
   );
 }

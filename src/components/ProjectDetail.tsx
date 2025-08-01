@@ -22,8 +22,10 @@ const ProjectDetail: React.FC<Props> = ({
     <div className="fixed inset-0 z-50 bg-black/90 flex items-center justify-center p-2 overflow-y-auto">
       {/* ===== Mobile Layout con look tipo PC ===== */}
       <div className="md:hidden flex flex-col items-center w-full max-w-md">
-        <div className="-mt-20 bg-[url('/pcwallpaper.jpg')] bg-cover bg-center 
-                        border-4 border-white rounded-lg shadow-2xl relative w-full">
+        <div
+          className="-mt-20 bg-[url('/pcwallpaper.webp')] bg-cover bg-center 
+                        border-4 border-white rounded-lg shadow-2xl relative w-full"
+        >
           {/* Controles simulados arriba */}
           <div className="flex justify-end gap-2 bg-black/70 p-2 rounded-t-md">
             <span className="w-3 h-3 rounded-full bg-red-500 opacity-60"></span>
@@ -42,6 +44,7 @@ const ProjectDetail: React.FC<Props> = ({
           {/* Imagen */}
           <div className="p-4">
             <img
+              loading="lazy"
               className={`w-full max-h-[35vh] object-contain mx-auto transition-opacity duration-300 ${
                 fade ? "opacity-0" : "opacity-100"
               }`}
@@ -105,7 +108,7 @@ const ProjectDetail: React.FC<Props> = ({
 
       {/* ===== Layout original PC (desde md en adelante) ===== */}
       <div className="hidden md:flex flex-col items-center">
-        <div className="bg-[url('/pcwallpaper.jpg')] h-[600px] w-full max-w-3xl rounded-xl shadow-2xl relative overflow-hidden border-6 border-white">
+        <div className="bg-[url('/pcwallpaper.webp')] h-[600px] w-full max-w-3xl rounded-xl shadow-2xl relative overflow-hidden border-6 border-white">
           <div className="relative mx-5 mt-5 p-2 bg-black/70 backdrop-blur-md rounded-t-md">
             <div className="mt-10">
               <img

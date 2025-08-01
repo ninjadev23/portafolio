@@ -18,9 +18,9 @@
       "name": "World Manga",
       "description": "World Manga es una web en la que los usuarios pueden registrarse y compartir tomos de manga/manhwa de forma gratuita y sin anuncion, con un diseño moderno, vistoso, fondo dinamico y responsivo hecho con react, react router y el backend hecho en python, django y django rest framework",
       "images": [
-        { "file": "WorldManga1.png", "display": "pc" },
-        { "file": "WorldManga2.png", "display": "pc" },
-        { "file": "WorldManga3.png", "display": "phone" }
+        { "file": "WorldManga1.webp", "display": "pc" },
+        { "file": "WorldManga2.webp", "display": "pc" },
+        { "file": "WorldManga3.webp", "display": "phone" }
       ],
       "github": "https://github.com/ninjadev23/World-Manga",
       "technologies": [
@@ -36,9 +36,9 @@
       "name": "Vibe",
       "description": "Es una red social desarrollada por una pequeña comunidad de gente que busca aprender y ganar experiencia, hecha en django y react esta cuenta con mensajes en tiempo real, diseño responsivo etc etc, en la que aprendi a trabajar en equipo y profundize mis habilidades en django y react",
       "images": [
-        { "file": "Vibe1.png", "display": "pc" },
-        { "file": "Vibe2.png", "display": "phone" },
-        { "file": "Vibe3.png", "display": "phone" }
+        { "file": "Vibe1.webp", "display": "pc" },
+        { "file": "Vibe2.webp", "display": "phone" },
+        { "file": "Vibe3.webp", "display": "phone" }
       ],
       "github": "https://github.com/Anti-VibeCoders/vibe",
       "technologies": [
@@ -55,9 +55,9 @@
       "name": "Notes App",
       "description": "Una aplicación de una sola página (SPA) construida con TypeScript, ReactJS y TailwindCSS. Implementa hooks, base de datos, consumo de APIs, inicio de sesión, componentes, rutas y más.",
       "images": [
-        { "file": "appnotes1.png", "display": "pc" },
-        { "file": "appnotes2.png", "display": "pc" },
-        { "file": "appnotes3.png", "display": "pc" }
+        { "file": "appnotes1.webp", "display": "pc" },
+        { "file": "appnotes2.webp", "display": "pc" },
+        { "file": "appnotes3.webp", "display": "pc" }
       ],
       "github": "https://github.com/ninjadev23/Notes-App",
       "technologies": [
@@ -73,8 +73,8 @@
       "name": "Rick & Morty Web",
       "description": "Una simple pagina que consume la API de rick and morty, hecha en react tiene un diseño moderno, uso de hooks y componentes",
       "images": [
-        { "file": "rickandmorty1.png", "display": "pc" },
-        { "file": "rickandmorty2.png", "display": "pc" }
+        { "file": "rickandmorty1.webp", "display": "pc" },
+        { "file": "rickandmorty2.webp", "display": "pc" }
       ],
       "github": "https://github.com/ninjadev23/RickAndMorty",
       "live": "https://rickandmortyreactjs.netlify.app/",
@@ -87,8 +87,8 @@
       "name": "Watermelon Code",
       "description": "La web oficial de una comunidad de programadores y estudiantes en la que forme parte por mucho mucho, buen diseño, responsivo, moderno y con un codigo limpio y organizado",
       "images": [
-        { "file": "watermeloncode1.png", "display": "pc" },
-        { "file": "watermeloncode2.png", "display": "pc" }
+        { "file": "watermeloncode1.webp", "display": "pc" },
+        { "file": "watermeloncode2.webp", "display": "pc" }
       ],
       "github": "https://github.com/janselroa/WatermelonCode-Web",
       "live": "https://watermeloncodecomunity.netlify.app/",
@@ -104,46 +104,46 @@
     {
       "name": "Curso Profesional de TypeScript", 
       "plataform":"CodigoFacilito",
-      "image": "/certificates/typescript_certificate.png",
-      "plataformIcon":"/certificates/plataforms/codigofacilito.png"
+      "image": "/certificates/typescript_certificate.webp",
+      "plataformIcon":"/certificates/plataforms/codigofacilito.webp"
     },
     {
       "name": "NodeJS Intermedio", 
       "plataform":"HackerRank",
-      "image": "/certificates/NodeIntermedio.png",
-      "plataformIcon":"/certificates/plataforms/hackerrank.png"
+      "image": "/certificates/NodeIntermedio.webp",
+      "plataformIcon":"/certificates/plataforms/hackerrank.webp"
     },{
       "name": "Frontend React", 
       "plataform":"HackerRank",
-      "image": "/certificates/Frontend_react_intermedio.png",
-      "plataformIcon":"/certificates/plataforms/hackerrank.png"
+      "image": "/certificates/Frontend_react_intermedio.webp",
+      "plataformIcon":"/certificates/plataforms/hackerrank.webp"
     },{
       "name": "Curso Profesional de Python", 
       "plataform":"CodigoFacilito",
-      "image": "/certificates/python_certificate.png",
-      "plataformIcon":"/certificates/plataforms/codigofacilito.png"
+      "image": "/certificates/python_certificate.webp",
+      "plataformIcon":"/certificates/plataforms/codigofacilito.webp"
     },
     {
       "name": "Python Sin Fronteras", 
       "plataform":"Udemy",
-      "image": "/certificates/python_fin_fronteras.jpg",
-      "plataformIcon":"/certificates/plataforms/udemy.png"
+      "image": "/certificates/python_fin_fronteras.webp",
+      "plataformIcon":"/certificates/plataforms/udemy.webp"
     },
     {
       "name": "Curso Profesional de Git y GitHub", 
       "plataform":"CodigoFacilito",
-      "image": "/certificates/git_certificate.png",
-      "plataformIcon":"/certificates/plataforms/codigofacilito.png"
+      "image": "/certificates/git_certificate.webp",
+      "plataformIcon":"/certificates/plataforms/codigofacilito.webp"
     },{
       "name": "Javascript Intermedio", 
       "plataform":"HackerRank",
-      "image": "/certificates/javascript_intermedio_certificado.png",
-      "plataformIcon":"/certificates/plataforms/hackerrank.png"
+      "image": "/certificates/javascript_intermedio_certificado.webp",
+      "plataformIcon":"/certificates/plataforms/hackerrank.webp"
     },{
       "name": "Curso Profesional de Go", 
       "plataform":"CodigoFacilito",
-      "image": "/certificates/Go_certificate.png",
-      "plataformIcon":"/certificates/plataforms/codigofacilito.png"
+      "image": "/certificates/Go_certificate.webp",
+      "plataformIcon":"/certificates/plataforms/codigofacilito.webp"
     }
   ]
 }

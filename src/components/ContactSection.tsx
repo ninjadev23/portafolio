@@ -1,27 +1,21 @@
-import { Mail, Github, Linkedin } from "lucide-react";
+import { Mail, Github } from "lucide-react";
 
 export default function ContactSection() {
   return (
     <section
       id="contact"
-      className="mt-10 relative py-16 md:py-20 bg-gradient-to-b from-black via-gray-900 to-black text-white"
+      className="mt-10 relative py-16 md:py-20"
     >
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        {/* Título */}
         <h2 className="text-3xl sm:text-4xl font-bold mb-4">
           Ponte en <span className="text-sky-400">Contacto</span>
         </h2>
-        <p className="text-gray-300 max-w-2xl mx-auto mb-12 text-sm sm:text-base">
-          Si tienes alguna idea, propuesta o quieres hablar sobre proyectos, no
-          dudes en escribirme.
-        </p>
 
         <div className="grid gap-10 lg:grid-cols-2">
-          {/* Formulario */}
           <form
-            action="https://formspree.io/f/your-form-id"
+            action="https://formspree.io/f/movlnqkw"
             method="POST"
-            className="bg-black/40 backdrop-blur-md p-6 sm:p-8 rounded-2xl shadow-lg border border-white/10 flex flex-col"
+            className="bg-black/30 backdrop-blur-md p-6 sm:p-8 rounded-2xl shadow-lg border border-white/10 flex flex-col"
           >
             <div className="mb-4">
               <label className="block text-left text-gray-300 mb-2 text-sm sm:text-base">
@@ -31,7 +25,7 @@ export default function ContactSection() {
                 type="text"
                 name="name"
                 required
-                className="w-full p-3 rounded-lg bg-gray-800 text-white focus:ring-2 focus:ring-sky-400 outline-none transition text-sm sm:text-base"
+                className="w-full p-3 rounded-lg bg-gray-800 text-white   outline-none transition text-sm sm:text-base"
                 placeholder="Tu nombre"
               />
             </div>
@@ -43,7 +37,7 @@ export default function ContactSection() {
                 type="email"
                 name="email"
                 required
-                className="w-full p-3 rounded-lg bg-gray-800 text-white focus:ring-2 focus:ring-sky-400 outline-none transition text-sm sm:text-base"
+                className="w-full p-3 rounded-lg bg-gray-800 text-white  outline-none transition text-sm sm:text-base"
                 placeholder="tuemail@ejemplo.com"
               />
             </div>
@@ -55,7 +49,7 @@ export default function ContactSection() {
                 name="message"
                 rows={4}
                 required
-                className="w-full p-3 rounded-lg bg-gray-800 text-white focus:ring-2 focus:ring-sky-400 outline-none transition resize-none text-sm sm:text-base"
+                className="w-full p-3 rounded-lg bg-gray-800 text-white outline-none transition resize-none text-sm sm:text-base"
                 placeholder="Escribe tu mensaje aquí..."
               ></textarea>
             </div>
@@ -66,33 +60,30 @@ export default function ContactSection() {
               Enviar Mensaje
             </button>
           </form>
-
-          {/* Datos de contacto */}
-          <div className="flex flex-col justify-center items-center bg-black/40 backdrop-blur-md p-6 sm:p-8 rounded-2xl shadow-lg border border-white/10">
+          <div className="flex flex-col justify-center items-center bg-black/30 backdrop-blur-md p-6 sm:p-8 rounded-2xl shadow-lg border border-white/10">
             <p className="text-gray-300 mb-6 text-sm sm:text-base">
               También puedes encontrarme en:
             </p>
             <div className="flex flex-col gap-4 text-base sm:text-lg w-full max-w-xs">
               <a
                 href="mailto:janselroa2424@gmail.com"
-                className="flex items-center gap-3 hover:text-sky-400 transition"
+                className="flex items-center gap-3 justify-center hover:text-sky-400 transition"
               >
                 <Mail size={20} />janselroa2424@gmail.com
               </a>
               <a
                 href="https://github.com/ninjadev23"
                 target="_blank"
-                className="flex items-center gap-3 hover:text-sky-400 transition"
+                className="flex items-center gap-3 justify-center hover:text-sky-400 transition"
               >
                 <Github size={20} /> Yansel Roa
               </a>
-              <a
-                href="https://linkedin.com/in/tuusuario"
-                target="_blank"
-                className="flex items-center gap-3 hover:text-sky-400 transition"
+              <p
+                className="flex items-center justify-center gap-3 hover:text-sky-400"
               >
-                <Linkedin size={20} /> janselroa
-              </a>
+                <img className="w-10" src="/discord.webp" alt="" />
+                jansel75
+              </p>
             </div>
           </div>
         </div>

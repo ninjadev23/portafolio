@@ -17,18 +17,17 @@ export default function Letrero() {
       <div className="flex flex-wrap-reverse justify-center bg-neutral-900/30 backdrop-blur-md p-10 rounded-lg">
         <div className="max-w-64">
           <p>
-            Muy buenas que tal, me llamo Jansel Roa soy un joven muy talentoso
-            que no para de aprender.
+            Muy buenas, ¿qué tal? Me llamo Jansel Roa. Soy un joven muy
+            talentoso que no para de aprender.
           </p>
 
           <p className="mt-2">
-            Tengo 18 años y estudio licenciatura en informatica en la
+            Tengo 18 años y estudio Licenciatura en Informática en la
             <span className="text-sky-600">
-              {" "}
-              Universidad Autonoma De Santo Domingo (UASD)
-            </span>{" "}
-            la primera universidad de america, ademas de ser autodidacta aprendo
-            y practico mucho por mi cuenta
+              Universidad Autónoma de Santo Domingo (UASD)
+            </span>
+            , la primera universidad de América. Además de ser autodidacta,
+            aprendo y practico mucho por mi cuenta.
           </p>
         </div>
         <div className="flex justify-center items-start relative h-[300px]">
@@ -46,7 +45,8 @@ export default function Letrero() {
             }}
           >
             <img
-              src="/codingwallpaper.jpg"
+              loading="lazy"
+              src="/profiles/profile4.webp"
               alt="letrero"
               className="w-full h-full object-cover"
             />
