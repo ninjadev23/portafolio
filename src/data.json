@@ -104,46 +104,46 @@
     {
       "name": "Curso Profesional de TypeScript", 
       "plataform":"CodigoFacilito",
-      "image": "/public/certificates/typescript_certificate.png",
-      "plataformIcon":"/public/certificates/plataforms/codigofacilito.png"
+      "image": "/certificates/typescript_certificate.png",
+      "plataformIcon":"/certificates/plataforms/codigofacilito.png"
     },
     {
       "name": "NodeJS Intermedio", 
       "plataform":"HackerRank",
-      "image": "/public/certificates/NodeIntermedio.png",
-      "plataformIcon":"/public/certificates/plataforms/hackerrank.png"
+      "image": "/certificates/NodeIntermedio.png",
+      "plataformIcon":"/certificates/plataforms/hackerrank.png"
     },{
       "name": "Frontend React", 
       "plataform":"HackerRank",
-      "image": "/public/certificates/Frontend_react_intermedio.png",
-      "plataformIcon":"/public/certificates/plataforms/hackerrank.png"
+      "image": "/certificates/Frontend_react_intermedio.png",
+      "plataformIcon":"/certificates/plataforms/hackerrank.png"
     },{
       "name": "Curso Profesional de Python", 
       "plataform":"CodigoFacilito",
-      "image": "/public/certificates/python_certificate.png",
-      "plataformIcon":"/public/certificates/plataforms/codigofacilito.png"
+      "image": "/certificates/python_certificate.png",
+      "plataformIcon":"/certificates/plataforms/codigofacilito.png"
     },
     {
       "name": "Python Sin Fronteras", 
       "plataform":"Udemy",
-      "image": "/public/certificates/python_fin_fronteras.jpg",
-      "plataformIcon":"/public/certificates/plataforms/udemy.png"
+      "image": "/certificates/python_fin_fronteras.jpg",
+      "plataformIcon":"/certificates/plataforms/udemy.png"
     },
     {
       "name": "Curso Profesional de Git y GitHub", 
       "plataform":"CodigoFacilito",
-      "image": "/public/certificates/git_certificate.png",
-      "plataformIcon":"/public/certificates/plataforms/codigofacilito.png"
+      "image": "/certificates/git_certificate.png",
+      "plataformIcon":"/certificates/plataforms/codigofacilito.png"
     },{
       "name": "Javascript Intermedio", 
       "plataform":"HackerRank",
-      "image": "/public/certificates/javascript_intermedio_certificado.png",
-      "plataformIcon":"/public/certificates/plataforms/hackerrank.png"
+      "image": "/certificates/javascript_intermedio_certificado.png",
+      "plataformIcon":"/certificates/plataforms/hackerrank.png"
     },{
       "name": "Curso Profesional de Go", 
       "plataform":"CodigoFacilito",
-      "image": "/public/certificates/Go_certificate.png",
-      "plataformIcon":"/public/certificates/plataforms/codigofacilito.png"
+      "image": "/certificates/Go_certificate.png",
+      "plataformIcon":"/certificates/plataforms/codigofacilito.png"
     }
   ]
 }
