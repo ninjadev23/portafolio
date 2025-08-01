@@ -1,0 +1,64 @@
+@import "tailwindcss";
+.typed-cursor {
+  color: #0ea5e9;
+}
+@layer utilities {
+  @keyframes scroll {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-200%);
+    }
+  }
+
+  .animate-scroll {
+    animation: scroll 35s linear infinite;
+  }
+}
+@layer utilities {
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  .animate-fade-in {
+    animation: fade-in 0.8s ease-in-out forwards;
+  }
+}
+
+html, body {
+  background-color: #000; /* o el mismo tono que tu overlay */
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+}
+@keyframes sign-swing {
+  0%   { transform: rotate(0deg); }
+  15%  { transform: rotate(15deg); }
+  30%  { transform: rotate(-12deg); }
+  45%  { transform: rotate(10deg); }
+  60%  { transform: rotate(-6deg); }
+  75%  { transform: rotate(3deg); }
+  100% { transform: rotateZ(-10deg); }
+}
+
+.animate-sign-swing {
+  animation: sign-swing 1.5s ease-out forwards;
+}
