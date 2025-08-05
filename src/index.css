@@ -8,12 +8,12 @@
       transform: translateX(0%);
     }
     100% {
-      transform: translateX(-200%);
+      transform: translateX(-160%);
     }
   }
 
   .animate-scroll {
-    animation: scroll 35s linear infinite;
+    animation: scroll 25s linear infinite;
   }
 }
 @layer utilities {

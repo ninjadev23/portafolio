@@ -1,0 +1,206 @@
+{
+  "skills": {
+    "title": "Habilidades",
+    "skills": [
+      { "name": "JavaScript", "iconColor": "#F7DF1E" },
+      { "name": "TypeScript", "iconColor": "#3178C6" },
+      { "name": "React", "iconColor": "#61DAFB" },
+      { "name": "NodeJS", "iconColor": "#5FA04E" },
+      { "name": "TailwindCSS", "iconColor": "#06B6D4" },
+      { "name": "HTML", "iconColor": "#E34F26" },
+      { "name": "CSS", "iconColor": "#1572B6" },
+      { "name": "Python", "iconColor": "#3776AB" },
+      { "name": "Django", "iconColor": "#092E20" },
+      { "name": "Linux", "iconColor": "#E95420" },
+      { "name": "ExpressJS", "iconColor": "#303030" },
+      { "name": "MongoDB", "iconColor": "#47A248" },
+      { "name": "Docker", "iconColor": "#0064a5" },
+      { "name": "PostgreSQL", "iconColor": "#008bb9" }
+    ]
+  },
+  "projects": {
+    "title": "Proyectos",
+    "description": "Si lo puedes <highlight1>imaginar</highlight1> lo puedes <highlight2>programar</highlight2>",
+    "projects": [
+      {
+        "name": "World Manga",
+        "description": "World Manga es una web en la que los usuarios pueden registrarse y compartir tomos de manga/manhwa de forma gratuita y sin anuncios, con un diseño moderno, vistoso, fondo dinámico y responsivo hecho con React, React Router y el backend hecho en Python, Django y Django REST Framework.",
+        "images": [
+          { "file": "WorldManga1.webp", "display": "pc" },
+          { "file": "WorldManga2.webp", "display": "pc" },
+          { "file": "WorldManga3.webp", "display": "phone" }
+        ],
+        "github": "https://github.com/ninjadev23/World-Manga",
+        "technologies": [
+          { "name": "React", "color": "rgb(97, 218, 251)" },
+          { "name": "Django", "color": "rgb(9, 46, 32)" },
+          { "name": "Python", "color": "rgb(55, 118, 171)" },
+          { "name": "PostgreSQL", "color": "rgb(47, 69, 84)" },
+          { "name": "TailwindCSS", "color": "rgb(6, 182, 212)" },
+          { "name": "React Router", "color": "rgb(202, 49, 84)" }
+        ]
+      },
+      {
+        "name": "Vibe",
+        "description": "Es una red social desarrollada por una pequeña comunidad de gente que busca aprender y ganar experiencia. Hecha en Django y React, cuenta con mensajes en tiempo real, diseño responsivo, etc. En ella aprendí a trabajar en equipo y profundicé mis habilidades en Django y React.",
+        "images": [
+          { "file": "Vibe1.webp", "display": "pc" },
+          { "file": "Vibe2.webp", "display": "phone" },
+          { "file": "Vibe3.webp", "display": "phone" }
+        ],
+        "github": "https://github.com/Anti-VibeCoders/vibe",
+        "technologies": [
+          { "name": "React", "color": "rgb(97, 218, 251)" },
+          { "name": "Django", "color": "rgb(9, 46, 32)" },
+          { "name": "Python", "color": "rgb(55, 118, 171)" },
+          { "name": "TailwindCSS", "color": "rgb(6, 182, 212)" },
+          { "name": "WebSockets", "color": "rgb(100, 100, 100)" },
+          { "name": "PostgreSQL", "color": "rgb(47, 69, 84)" },
+          { "name": "ReactRouter", "color": "rgb(202, 49, 84)" }
+        ]
+      },
+      {
+        "name": "Notes App",
+        "description": "Una aplicación de una sola página (SPA) construida con TypeScript, ReactJS y TailwindCSS. Implementa hooks, base de datos, consumo de APIs, inicio de sesión, componentes, rutas y más.",
+        "images": [
+          { "file": "appnotes1.webp", "display": "pc" },
+          { "file": "appnotes2.webp", "display": "pc" },
+          { "file": "appnotes3.webp", "display": "pc" }
+        ],
+        "github": "https://github.com/ninjadev23/Notes-App",
+        "technologies": [
+          { "name": "TypeScript", "color": "rgb(49, 120, 198)" },
+          { "name": "NodeJS", "color": "rgb(95, 160, 78)" },
+          { "name": "ExpressJS", "color": "rgb(100, 100, 100)" },
+          { "name": "MongoDB", "color": "rgb(47, 69, 84)" },
+          { "name": "React", "color": "rgb(97, 218, 251)" },
+          { "name": "TailwindCSS", "color": "rgb(6, 182, 212)" }
+        ]
+      },
+      {
+        "name": "Rick & Morty Web",
+        "description": "Una simple página que consume la API de Rick and Morty, hecha en React. Tiene un diseño moderno, uso de hooks y componentes.",
+        "images": [
+          { "file": "rickandmorty1.webp", "display": "pc" },
+          { "file": "rickandmorty2.webp", "display": "pc" }
+        ],
+        "github": "https://github.com/ninjadev23/RickAndMorty",
+        "live": "https://rickandmortyreactjs.netlify.app/",
+        "technologies": [
+          { "name": "React", "color": "rgb(97, 218, 251)" },
+          { "name": "Vite", "color": "rgb(255, 0, 0)" }
+        ]
+      },
+      {
+        "name": "Watermelon Code",
+        "description": "La web oficial de una comunidad de programadores y estudiantes en la que formé parte por mucho tiempo. Buen diseño, responsivo, moderno y con un código limpio y organizado.",
+        "images": [
+          { "file": "watermeloncode1.webp", "display": "pc" },
+          { "file": "watermeloncode2.webp", "display": "pc" }
+        ],
+        "github": "https://github.com/janselroa/WatermelonCode-Web",
+        "live": "https://watermeloncodecomunity.netlify.app/",
+        "technologies": [
+          { "name": "Sass", "color": "rgb(255, 153, 204)" },
+          { "name": "HTML", "color": "rgb(227, 79, 38)" },
+          { "name": "CSS", "color": "rgb(21, 114, 182)" },
+          { "name": "JavaScript", "color": "rgb(247, 223, 30)" }
+        ]
+      }
+    ]
+  },
+  "education": {
+    "title": "Educación",
+    "certificates": [
+      {
+        "name": "Curso Profesional de TypeScript",
+        "platform": "CódigoFacilito",
+        "image": "/certificates/typescript_certificate.webp",
+        "platformIcon": "/certificates/plataforms/codigofacilito.webp"
+      },
+      {
+        "name": "NodeJS Intermedio",
+        "platform": "HackerRank",
+        "image": "/certificates/NodeIntermedio.webp",
+        "platformIcon": "/certificates/plataforms/hackerrank.webp"
+      },
+      {
+        "name": "Frontend React",
+        "platform": "HackerRank",
+        "image": "/certificates/Frontend_react_intermedio.webp",
+        "platformIcon": "/certificates/plataforms/hackerrank.webp"
+      },
+      {
+        "name": "Curso Profesional de Python",
+        "platform": "CódigoFacilito",
+        "image": "/certificates/python_certificate.webp",
+        "platformIcon": "/certificates/plataforms/codigofacilito.webp"
+      },
+      {
+        "name": "Python Sin Fronteras",
+        "platform": "Udemy",
+        "image": "/certificates/python_fin_fronteras.webp",
+        "platformIcon": "/certificates/plataforms/udemy.webp"
+      },
+      {
+        "name": "Curso Profesional de Git y GitHub",
+        "platform": "CódigoFacilito",
+        "image": "/certificates/git_certificate.webp",
+        "platformIcon": "/certificates/plataforms/codigofacilito.webp"
+      },
+      {
+        "name": "JavaScript Intermedio",
+        "platform": "HackerRank",
+        "image": "/certificates/javascript_intermedio_certificado.webp",
+        "platformIcon": "/certificates/plataforms/hackerrank.webp"
+      },
+      {
+        "name": "Curso Profesional de Go",
+        "platform": "CódigoFacilito",
+        "image": "/certificates/Go_certificate.webp",
+        "platformIcon": "/certificates/plataforms/codigofacilito.webp"
+      }
+    ]
+  },
+  "home": {
+    "bottom_one": "Sobre mí",
+    "bottom_two": "Ver Mi CV",
+    "words": [
+      "Desarrollador Full Stack",
+      "Desarrollador Frontend",
+      "Desarrollador Backend",
+      "Python y Django",
+      "NodeJS y Express",
+      "React y NextJS"
+    ]
+  },
+  "about": {
+    "title": "Sobre Mí",
+    "paragraphs": [
+      "Muy buenas, Me llamo Jansel Roa. Soy un joven autodidacta muy talentoso que no para de aprender.",
+      "Estudio licenciatura en informática en la <highlight>Universidad Autónoma de Santo Domingo (UASD)</highlight>, la primera universidad de América.",
+      "Se me da muy bien el desarrollo web tanto frontend como backend y tengo experiencia en <highlight1>Javascript, Python</highlight1> y frameworks como <highlight2>ExpressJS, ReactJS, Flask, Django y Django Rest framework</highlight2>.",
+      "Soy alguien que fluye, siempre busco solucionar problemas desde diferentes perspectivas, salir de mi zona de confort y aprender cosas nuevas"
+    ]
+  },
+  "navigation": [
+    { "name": "Sobre mí", "to": "#about" },
+    { "name": "Habilidades", "to": "#skills" },
+    { "name": "Proyectos", "to": "#projects" },
+    { "name": "Educación", "to": "#education" },
+    { "name": "Contacto", "to": "#contact" }
+  ],
+  "contact": {
+    "title": "Ponte en <1>Contacto</1>",
+    "form": {
+      "name": "Nombre",
+      "name_placeholder": "Tu nombre",
+      "email": "Correo",
+      "email_placeholder": "tuemail@ejemplo.com",
+      "message": "Mensaje",
+      "message_placeholder": "Escribe tu mensaje aquí...",
+      "submit": "Enviar Mensaje"
+    },
+    "alsoFindMe": "También puedes encontrarme en:"
+  }
+}

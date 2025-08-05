@@ -12,4 +12,21 @@ export interface Project {
   github: string;
   technologies: Technology[];
   live?: string;
+  images?:Image[]
 };
+export type CertType = {
+  name: string;
+  image: string;
+  platform: string;
+  platformIcon?: string;
+};
+
+export type Skill = {
+  name: string
+  iconColor: string
+}
+export type NavItemType = {
+  to: string
+  name: string
+}
+export type Lang = "es" | "en"

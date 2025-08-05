@@ -15,6 +15,7 @@ import {
   SiReactrouter,
   SiVite,
   SiExpress,
+  SiDocker
 } from "react-icons/si";
 import { TbTopologyStar3 } from "react-icons/tb";
 export const iconMap: Record<string, React.ElementType> = {
@@ -35,4 +36,5 @@ export const iconMap: Record<string, React.ElementType> = {
   ReactRouter: SiReactrouter,
   Vite: SiVite,
   ExpressJS: SiExpress,
+  Docker:SiDocker
 };
