@@ -11,11 +11,13 @@ export default function Navigation() {
 
   return (
     <nav className="w-full h-16 bg-black/30 backdrop-blur-md fixed top-0 left-0 z-20 px-4 py-2 flex items-center justify-between">
-      <img
-        className="h-10 w-40 -ml-6 object-cover"
-        src="/logo.webp"
-        alt="code"
-      />
+      <a href="#home">
+        <img
+          className="h-10 w-40 -ml-6 object-cover"
+          src="/logo.webp"
+          alt="code"
+        />
+      </a>
       <LanguageToggle />
       {/* Desktop nav */}
       <ul className="hidden md:flex justify-center gap-2 text-lg font-semibold">

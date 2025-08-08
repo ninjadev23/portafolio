@@ -38,3 +38,6 @@ export const iconMap: Record<string, React.ElementType> = {
   ExpressJS: SiExpress,
   Docker:SiDocker
 };
+
+export  const randomNumber = (min: number, max: number) =>
+    Math.floor(Math.random() * (max - min + 1)) + min;
