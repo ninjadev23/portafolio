@@ -19,6 +19,7 @@ export type CertType = {
   image: string;
   platform: string;
   platformIcon?: string;
+  status?: string;
 };
 
 export type Skill = {

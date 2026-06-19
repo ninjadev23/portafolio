@@ -16,18 +16,19 @@ export default function Letrero() {
   return (
     <section className="mt-15 flex justify-center w-full flex-col items-center">
       <h2 className="my-10 text-center text-2xl py-2">
-        <span className="border-b py-2">{t("about.title")}</span>
+        <span className="border-b border-white/30 py-2 tracking-wide">{t("about.title")}</span>
       </h2>
-      <div className="flex flex-wrap-reverse justify-center bg-neutral-900/30 backdrop-blur-md p-10 rounded-lg">
+      <div className="flex flex-wrap-reverse justify-center bg-white/[0.04] backdrop-blur-md p-10 rounded-xl
+                       border border-white/[0.08] glow-border">
         <div className="max-w-96">
           {paragraphs.map((text, i) => (
-            <p key={i} className={i > 0 ? "mt-3" : ""}>
+            <p key={i} className={`${i > 0 ? "mt-3" : ""} text-white/80 leading-relaxed`}>
               <Trans
                 i18nKey={`about.paragraphs.${i}`}
                 components={{
-                  highlight: <span className="text-sky-600 font-semibold" />,
-                  highlight1: <span className="text-sky-600 font-semibold" />,
-                  highlight2: <span className="text-sky-600 font-semibold" />
+                  highlight: <span className="text-sky-400 font-semibold" />,
+                  highlight1: <span className="text-sky-400 font-semibold" />,
+                  highlight2: <span className="text-sky-400 font-semibold" />,
                 }}
               />
             </p>
@@ -36,7 +37,7 @@ export default function Letrero() {
 
         <div className="flex justify-center items-start relative h-80">
           {/* el puntico de anclaje */}
-          <div className="absolute top-0 left-1/2 -translate-x-1 w-2 h-2 bg-sky-600 rounded-full z-10" />
+          <div className="absolute top-0 left-1/2 -translate-x-1 w-2 h-2 bg-sky-500 rounded-full z-10 shadow-[0_0_8px_rgba(14,165,233,0.5)]" />
 
           {/* Imagen colgando */}
           <div

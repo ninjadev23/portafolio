@@ -36,9 +36,9 @@ export default function DeviceReal({
 
   if (type === "pc") {
     return (
-      <div className="w-64 relative">
+      <div className="w-72 sm:w-80 relative">
         <div
-          className={`${baseWrapper} h-52 bg-[url('/pcwallpaper.webp')] bg-blend-overlay bg-black/80 border-5 border-white rounded-md shadow`}
+          className={`${baseWrapper} h-60 sm:h-64 bg-[url('/pcwallpaper.webp')] bg-blend-overlay bg-black/80 border-5 border-white rounded-md shadow`}
         >
           <img
             loading="lazy"
@@ -60,8 +60,8 @@ export default function DeviceReal({
           </div>
         </div>
 
-        <div className="w-20 h-2 bg-white mx-auto shadow"></div>
-        <div className="w-36 h-1.5 bg-white mx-auto shadow"></div>
+        <div className="w-24 h-2 bg-white mx-auto shadow"></div>
+        <div className="w-40 h-1.5 bg-white mx-auto shadow"></div>
       </div>
     );
   }
@@ -69,7 +69,7 @@ export default function DeviceReal({
   if (type === "phone") {
     return (
       <div
-        className={`${baseWrapper} w-36 h-80 bg-black border-[6px] border-white rounded-2xl`}
+        className={`${baseWrapper} w-44 h-96 bg-black border-[6px] border-white rounded-2xl`}
       >
         <img
           src={image}

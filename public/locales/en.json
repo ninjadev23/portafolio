@@ -23,6 +23,26 @@
     "description": "If you can <highlight1>imagine</highlight1> it, you can <highlight2>code</highlight2>",
     "projects": [
       {
+        "name": "PC-Nexus",
+        "description": "PC NEXUS is my final project for the Code In Place course. It is a forum for technology enthusiasts: software, hardware, systems, components, reviews, questions, and recommendations. It features a modern space-inspired design and a real-time chat.",
+        "images": [
+          { "file": "pcnexus1.webp", "display": "pc" },
+          { "file": "pcnexus2.webp", "display": "pc" },
+          { "file": "pcnexus3.webp", "display": "pc" }
+        ],
+        "github": "",
+        "technologies": [
+          { "name": "React", "color": "rgb(97, 218, 251)" },
+          { "name": "Django", "color": "rgb(9, 46, 32)" },
+          { "name": "Python", "color": "rgb(55, 118, 171)" },
+          { "name": "TailwindCSS", "color": "rgb(6, 182, 212)" },
+          { "name": "WebSockets", "color": "rgb(100, 100, 100)" },
+          { "name": "PostgreSQL", "color": "rgb(47, 69, 84)" },
+          { "name": "Vite", "color": "rgb(255, 0, 0)" },
+          { "name": "ReactRouter", "color": "rgb(202, 49, 84)" }
+        ]
+      },
+      {
         "name": "World Manga",
         "description": "World Manga is a website where users can register and share manga/manhwa volumes for free and without ads, featuring a modern and eye-catching design, dynamic and responsive background built with React, React Router, and backend built with Python, Django, and Django REST Framework.",
         "images": [
@@ -159,6 +179,18 @@
         "platform": "CódigoFacilito",
         "image": "/certificates/Go_certificate.webp",
         "platformIcon": "/certificates/plataforms/codigofacilito.webp"
+      },
+      {
+        "name": "Intermediate FullStack Web Development",
+        "platform": "Talento Digital (Indotel)",
+        "image": "",
+        "status": "in_progress"
+      },
+      {
+        "name": "Code In Place",
+        "platform": "Stanford",
+        "image": "",
+        "status": "in_progress"
       }
     ]
   },
