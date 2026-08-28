@@ -183,8 +183,8 @@
       {
         "name": "Desarrollo Web FullStack Intermedio",
         "platform": "Talento Digital (Indotel)",
-        "image": "",
-        "status": "in_progress"
+        "image": "/certificates/indotel_certificate.webp",
+        "platformIcon": "/certificates/plataforms/indotel.webp"
       },
       {
         "name": "Code In Place",
