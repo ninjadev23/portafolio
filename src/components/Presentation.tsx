@@ -35,7 +35,7 @@ export default function Presentation() {
     <section id="home" className="w-full h-screen flex items-center justify-center flex-col gap-6">
       <div className="flex items-center justify-center gap-5 flex-wrap">
         {/* Polaroid photo */}
-        <div className="rotate-6 bg-white h-50 w-50 flex items-center justify-center p-1.5 rounded-sm
+        <div className="rotate-6 bg-white h-60 w-60 flex items-center justify-center p-1.5 rounded-sm
                         shadow-[0_0_25px_rgba(14,165,233,0.15),0_10px_30px_rgba(0,0,0,0.4)]
                         hover:rotate-3 transition-transform duration-500">
           <img

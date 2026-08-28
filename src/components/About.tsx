@@ -1,15 +1,28 @@
 import { useInView } from "react-intersection-observer";
 import { useEffect, useState } from "react";
 import { useTranslation, Trans } from "react-i18next";
+import { randomNumber } from "../utils";
 
 export default function Letrero() {
   const { ref, inView } = useInView({ triggerOnce: true, threshold: 0.5 });
   const [active, setActive] = useState(false);
   const { t } = useTranslation();
+  const [profileImage, setProfileImage] = useState(1);
 
   useEffect(() => {
     if (inView) setActive(true);
   }, [inView]);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      let newProfileImage = randomNumber(1, 3);
+      if (newProfileImage === profileImage) {
+        newProfileImage = randomNumber(1, 3); // try again
+      }
+      setProfileImage(newProfileImage);
+    }, 3000);
+    return () => clearInterval(interval);
+  }, [profileImage]);
 
   const paragraphs = t("about.paragraphs", { returnObjects: true }) as string[];
 
@@ -50,10 +63,11 @@ export default function Letrero() {
             }}
           >
             <img
+              key={profileImage}
               loading="lazy"
-              src="/profiles/profile4.webp"
+              src={`/profiles/profile${profileImage}.webp`}
               alt="letrero"
-              className="w-full h-full object-cover"
+              className="w-full h-full object-cover opacity-0 animate-fade-in"
             />
           </div>
         </div>
