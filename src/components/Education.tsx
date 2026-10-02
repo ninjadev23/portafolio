@@ -50,6 +50,9 @@ export default function Education() {
                   <h3 className="text-center font-semibold text-sm leading-tight">{cert.name}</h3>
                   <div className="flex justify-center items-center gap-2 mt-2">
                     <p className="font-bold text-sky-400/80 text-sm">{cert.platform}</p>
+                    {cert.platformIcon && 
+                      <img className="w-8 h-8 rounded-full object-contain" src={cert.platformIcon} alt={cert.platform} />
+                    }
                   </div>
                 </div>
               </div>

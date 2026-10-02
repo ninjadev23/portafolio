@@ -135,7 +135,7 @@
       {
         "name": "Licenciatura en Informática",
         "platform": "Universidad Autónoma de Santo Domingo (UASD)",
-        "image": "",
+        "image": "/certificates/plataforms/uasd.webp",
         "platformIcon": "/certificates/plataforms/uasd.webp",
         "status": "in_progress"
       },
