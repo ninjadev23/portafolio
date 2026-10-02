@@ -81,7 +81,7 @@ export default function Navigation() {
       {isMobileMenuOpen && (
         <div
           ref={menuRef}
-          className="animate-slide-down absolute top-full left-0 w-full bg-black/60 backdrop-blur-2xl
+          className="animate-slide-down absolute top-full left-0 w-full bg-black/40 backdrop-blur-2xl
                      flex flex-col gap-1 text-white text-center font-medium py-4 px-4 md:hidden
                      border-b border-white/[0.06] shadow-2xl"
         >

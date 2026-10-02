@@ -19,7 +19,7 @@ export default function Education() {
         <span className="border-b border-white/30 py-2 tracking-wide">{t("education.title")}</span>
       </h2>
 
-      <div className="flex flex-wrap justify-center gap-5 px-4">
+      <div className="flex flex-wrap justify-center gap-8 px-4">
         {certificates.map((cert, index) => {
           const isInProgress = cert.status === "in_progress";
 
@@ -27,14 +27,14 @@ export default function Education() {
             return (
               <div
                 key={index}
-                className="relative w-52 rounded-xl overflow-hidden
+                className="relative w-64 rounded-xl overflow-hidden
                            bg-gradient-to-br from-sky-500/10 via-purple-500/5 to-sky-500/10
                            backdrop-blur-md border border-sky-400/20
                            transition-all duration-300 hover:scale-105 hover:border-sky-400/40
                            hover:shadow-lg hover:shadow-sky-500/10"
               >
                 {/* Decorative top area */}
-                <div className="h-35 flex items-center justify-center bg-gradient-to-br from-sky-900/30 to-purple-900/20 relative overflow-hidden">
+                <div className="h-44 flex items-center justify-center bg-gradient-to-br from-sky-900/30 to-purple-900/20 relative overflow-hidden">
                   {/* Animated background circles */}
                   <div className="absolute w-20 h-20 rounded-full bg-sky-400/10 top-2 -left-4 blur-xl" />
                   <div className="absolute w-16 h-16 rounded-full bg-purple-400/10 bottom-0 right-2 blur-xl" />
@@ -59,14 +59,14 @@ export default function Education() {
           return (
             <div
               key={index}
-              className="relative group w-52 rounded-xl overflow-hidden
+              className="relative group w-64 rounded-xl overflow-hidden
                          bg-white/[0.04] backdrop-blur-md border border-white/[0.08]
                          transition-all duration-300 hover:scale-105 hover:border-white/[0.15]
                          hover:shadow-lg hover:shadow-sky-500/5"
             >
               <img
                 loading="lazy"
-                className="w-full h-35 object-cover"
+                className="w-full h-44 object-cover"
                 src={cert.image}
                 alt={cert.name}
               />

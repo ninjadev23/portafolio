@@ -133,6 +133,19 @@
     "title": "Education",
     "certificates": [
       {
+        "name": "Bachelor's Degree in Computer Science",
+        "platform": "Autonomous University of Santo Domingo (UASD)",
+        "image": "",
+        "platformIcon": "/certificates/plataforms/uasd.webp",
+        "status": "in_progress"
+      },
+      {
+        "name": "Intermediate FullStack Web Development",
+        "platform": "Talento Digital (Indotel)",
+        "image": "/certificates/indotel_certificate.webp",
+        "platformIcon": "/certificates/plataforms/indotel.webp"
+      },
+      {
         "name": "Professional TypeScript Course",
         "platform": "CódigoFacilito",
         "image": "/certificates/typescript_certificate.webp",
@@ -181,12 +194,6 @@
         "platformIcon": "/certificates/plataforms/codigofacilito.webp"
       },
       {
-        "name": "Intermediate FullStack Web Development",
-        "platform": "Talento Digital (Indotel)",
-        "image": "/certificates/indotel_certificate.webp",
-        "platformIcon": "/certificates/plataforms/indotel.webp"
-      },
-      {
         "name": "Code In Place",
         "platform": "Stanford",
         "image": "",
@@ -209,10 +216,9 @@
   "about": {
     "title": "About Me",
     "paragraphs": [
-      "Hello! My name is Jansel Roa. A self-taught developer with a constant drive to learn and grow.",
-      "Currently studying a degree in Computer Science at the <highlight>Autonomous University of Santo Domingo (UASD)</highlight>, the first university in the Americas.",
-      "Strong skills in both frontend and backend development, with hands-on experience in <highlight1>JavaScript, Python</highlight1> and frameworks such as <highlight2>ExpressJS, ReactJS, Flask, Django, and Django Rest Framework</highlight2>.",
-      "Naturally adaptable, always seeking creative solutions, exploring new perspectives, stepping out of the comfort zone, and learning continuously."
+      "AI knows how to write code, but it doesn't know how to design systems, it doesn't pull from its own pocket, nor does it attend to a client when something goes wrong.",
+      "Today, programming and creating real solutions goes beyond just code or an AI prompt; it's about understanding solutions, structures, methodologies, and architectures. When something fails, knowing <highlight>How? When? and Why?</highlight> it failed, this is where <highlight1>I</highlight1> come in, someone capable of analyzing, designing, and building true solutions that bring great value to your project.",
+      "In addition to my continuous self-taught training, I am currently studying a <highlight2>Bachelor's Degree in Computer Science at the Autonomous University of Santo Domingo (UASD)</highlight2>, among other studies. I master modern Frontend and Backend technologies such as TypeScript, Python, PHP, C#, frameworks, and databases, always ready to adapt and keep learning."
     ]
   },
   "navigation": [

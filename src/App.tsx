@@ -58,14 +58,14 @@ export default function App() {
         <section id="skills">
           <Skills />
         </section>
-        <section id="projects">
-          <Projects />
+        <section id="education">
+          <Education />
         </section>
         <section id="about">
           <AboutSection />
         </section>
-        <section id="education">
-          <Education />
+        <section id="projects">
+          <Projects />
         </section>
         <ContactSection />
       </div>

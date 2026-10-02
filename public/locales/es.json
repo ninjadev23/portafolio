@@ -133,6 +133,19 @@
     "title": "Educación",
     "certificates": [
       {
+        "name": "Licenciatura en Informática",
+        "platform": "Universidad Autónoma de Santo Domingo (UASD)",
+        "image": "",
+        "platformIcon": "/certificates/plataforms/uasd.webp",
+        "status": "in_progress"
+      },
+      {
+        "name": "Desarrollo Web FullStack Intermedio",
+        "platform": "Talento Digital (Indotel)",
+        "image": "/certificates/indotel_certificate.webp",
+        "platformIcon": "/certificates/plataforms/indotel.webp"
+      },
+      {
         "name": "Curso Profesional de TypeScript",
         "platform": "CódigoFacilito",
         "image": "/certificates/typescript_certificate.webp",
@@ -181,12 +194,6 @@
         "platformIcon": "/certificates/plataforms/codigofacilito.webp"
       },
       {
-        "name": "Desarrollo Web FullStack Intermedio",
-        "platform": "Talento Digital (Indotel)",
-        "image": "/certificates/indotel_certificate.webp",
-        "platformIcon": "/certificates/plataforms/indotel.webp"
-      },
-      {
         "name": "Code In Place",
         "platform": "Stanford",
         "image": "",
@@ -209,10 +216,9 @@
   "about": {
     "title": "Sobre Mí",
     "paragraphs": [
-      "Muy buenas, Me llamo Jansel Roa. Soy un joven autodidacta muy talentoso que no para de aprender.",
-      "Estudio licenciatura en informática en la <highlight>Universidad Autónoma de Santo Domingo (UASD)</highlight>, la primera universidad de América.",
-      "Se me da muy bien el desarrollo web tanto frontend como backend y tengo experiencia en <highlight1>Javascript, Python</highlight1> y frameworks como <highlight2>ExpressJS, ReactJS, Flask, Django y Django Rest framework</highlight2>.",
-      "Soy alguien que fluye, siempre busco solucionar problemas desde diferentes perspectivas, salir de mi zona de confort y aprender cosas nuevas"
+      "La IA sabe escribir código, pero no sabe diseñar sistemas, no saca de su bolsillo o atiende a un cliente cuando algo sale mal.",
+      "Hoy en día programar y crear soluciones reales va más allá de solo código o un prompt de la IA, se trata de entender soluciones, estructuras, metodologías y arquitecturas. Cuando algo falla saber <highlight>¿Cómo? ¿Cuándo? y el ¿Por qué?</highlight> hubo fallo, aquí es donde entro <highlight1>YO</highlight1>, alguien capaz de analizar, diseñar y construir verdaderas soluciones que aporten gran valor a tu proyecto.",
+      "Además de mi constante formación autodidacta, actualmente estudio la <highlight2>Licenciatura en Informática en la Universidad Autónoma de Santo Domingo (UASD)</highlight2> entre otras formaciones. Domino tecnologías modernas del Frontend y Backend como TypeScript, Python, PHP, C#, frameworks y bases de datos, siempre dispuesto a adaptarme y seguir aprendiendo."
     ]
   },
   "navigation": [
